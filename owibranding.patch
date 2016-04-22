@@ -1,0 +1,21 @@
+@@ -294,10 +294,6 @@
+ 			brand = "EVO"
+ 			model = "enfinityX combo plus"
+ 			procmodel = "vg2000"
+-			
+-	if procmodel == "et7000mini":
+-		brand = "Galaxy Innovations"
+-		model = "ET-7000 Mini"
+ 
+ 	type = procmodel
+ 	if type in ("et9000", "et9100", "et9200", "et9500"):
+@@ -343,8 +339,6 @@
+ 		remote = "et8000"
+ 	elif procmodel in ("et7x00", "et7000", "et7500"):
+ 		remote = "et7x00"
+-	elif procmodel == "et7000mini":
+-		remote = "et7000mini"
+ 	elif procmodel == "gbquad":
+ 		remote = "gigablue"
+ 	elif procmodel == "gbquadplus":
+
